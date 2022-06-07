@@ -1,1 +1,1 @@
-https://shvechkovAS.github.io/rsschool-cv/cv
+https://shvechkovAS.github.io/rsschool-cv/

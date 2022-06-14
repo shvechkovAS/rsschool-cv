@@ -1,8 +1,154 @@
+<!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Тест</title>
+        <title>CV Shvechkov Anton</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-        <p class="example">Пример страницы</p>
+        <header >
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#contacts">contacts</a>
+                    </li>
+                    <li>
+                        <a href="#info">info</a>
+                    </li>
+                    <li>
+                        <a href="#skills">skills</a>
+                    </li>
+                    <li>
+                        <a href="#example">code example</a>
+                    </li>
+                    <li>
+                        <a href="#experience">work experience</a>
+                    </li>
+                    <li>
+                        <a href="#english">english</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main class="CV">
+            <div class = "name">
+                <h3>name</h3>
+                <p>Shvechkov Anton</p>
+            </div>
+            <div class="left-block">
+                <div class="photo">
+                    <img src="photo.jpg">
+                </div>
+                <div class="contacts">
+                    <h3>contacts</h3>
+                    <ul>
+                        <li>
+                            phone: +7(950)***-**-57
+                        </li>
+                        <li>
+                            email: amv****1@gmail.com
+                        </li>
+                        <li>
+                            discord: Anton Shvechkov (@shvechkovAS)
+                        </li>
+                    </ul>
+                </div>
+                <div class="skills">
+                    <h3>skills</h3>
+                    <ul>
+                        <li>
+                            Java 8
+                        </li>
+                        <li>
+                            Spring
+                        </li>
+                        <li>
+                            Spring Boot
+                        </li>
+                        <li>
+                            1С Bitrix
+                        </li>
+                        <li>
+                            REST
+                        </li>
+                        <li>
+                            SOAP
+                        </li>
+                        <li>
+                            MySQL
+                        </li>
+                        <li>
+                            PostgresSQL
+                        </li>
+                        <li>
+                            Oracle PL/SQL
+                        </li>
+                    </ul>
+                </div>
+                <div class="experience">
+                    <h3>work experience</h3>
+                    <ul>
+                        <li>
+                            Technical supporting, public joint stock company "Sberbank", 2 years
+                        </li>
+                        <li>
+                            Engineer-programmer (backend), ltd "Technocom", 5 years
+                        </li>
+                        <li>
+                            Engineer-programmer (fullstack), ltd "suenco", 1 year
+                        </li>
+                    </ul>
+                </div>
+                <div class="english">
+                    <h3>english</h3>
+                    <p>B1-Pre-Intermediate</p>
+                </div>
+            </div>
+            <div class="right-block">
+                <div class="info">
+                    <h3>info</h3>
+                    <p>
+                       I am 30 y.o. On this course I want to learn basics of JavaScript and apply it on my current workplace. 
+                       When I was hired, they told me it would require only a backend skills, but they lied!
+                       We use Angular and Angular JS, but I want more common knowledge.
+                    </p>
+                </div>
+                <div class="code-example">
+                    <h3>code example</h3>
+                    <p>
+                        var countBits = function(n) {
+                            let num = n;
+                            let binary = num.toString(2);
+                            let bits = binary.replace(/0/g,"");
+                            return bits.length;
+                          };
+                    </p>
+                </div>
+                <div class="education">
+                    <h3>education</h3>
+                    <ul>
+                        <li>
+                            Tyumen State Oil And Gas University (Automated information processing systems and control)
+                        </li>
+                        <li>
+                            Tyumen State Oil And Gas University (english in the field of professional communications)
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>
+                2022
+            </p>
+            <p>
+                Github Link:
+                <a href="https://github.com/shvechkovAS">shvechkovAS</a>
+            </p>
+            <p>
+                <a href="https://rs.school/js/">
+                    <img src="https://rs.school/images/rs_school_js.svg" alt="rsschool logo">
+                </a>
+            </p>
+        </footer>
     </body>
 </html>

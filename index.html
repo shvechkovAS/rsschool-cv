@@ -1,8 +1,153 @@
+<!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Тест</title>
+        <title>CV Shvechkov Anton</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-        <p class="example">Пример страницы</p>
+        <header>
+            <nav class="navigate">
+                <ul>
+                    <li>
+                        <a href="#contacts">contacts</a>
+                    </li>
+                    <li>
+                        <a href="#info">info</a>
+                    </li>
+                    <li>
+                        <a href="#skills">skills</a>
+                    </li>
+                    <li>
+                        <a href="#example">code example</a>
+                    </li>
+                    <li>
+                        <a href="#experience">work experience</a>
+                    </li>
+                    <li>
+                        <a href="#english">english</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main class="CV">
+            <div class="about">
+                <figure class="photo">
+                    <img src="photo.jpg" class="pic">
+                </figure>
+                <div class="name">
+                    <h1>Shvechkov Anton</h1>
+                </div>
+            </div>
+            <div class="common">
+                <div id="contacts" class="flex-item">
+                    <h2>contacts</h2>
+                    <ul>
+                        <li>
+                            phone: +7(950)***-**-57
+                        </li>
+                        <li>
+                            email: amv****1@gmail.com
+                        </li>
+                        <li>
+                            discord: Anton Shvechkov (@shvechkovAS)
+                        </li>
+                    </ul>
+                </div>
+                <div id="info" class="flex-item">
+                    <h2>info</h2>
+                    <p>
+                       I am 30 y.o. On this course I want to learn basics of JavaScript and apply it on my current workplace. 
+                       When I was hired, they told me it would require only a backend skills, but they lied!
+                       They use Angular and Angular JS, and I want more common knowledge.
+                    </p>
+                </div>
+                <div id="experience" class="flex-item">
+                    <h2>work experience</h2>
+                    <ul>
+                        <li>
+                            Technical supporting, public joint stock company "Sberbank", 2 years
+                        </li>
+                        <li>
+                            Engineer-programmer (backend), ltd "Technocom", 5 years
+                        </li>
+                        <li>
+                            Engineer-programmer (fullstack), ltd "suenco", 1 year
+                        </li>
+                    </ul>
+                </div>
+                <div id="skills" class="flex-item">
+                    <h2>skills</h2>
+                    <ul>
+                        <li>
+                            Java 8
+                        </li>
+                        <li>
+                            Spring
+                        </li>
+                        <li>
+                            Spring Boot
+                        </li>
+                        <li>
+                            1С Bitrix
+                        </li>
+                        <li>
+                            REST
+                        </li>
+                        <li>
+                            SOAP
+                        </li>
+                        <li>
+                            MySQL
+                        </li>
+                        <li>
+                            PostgresSQL
+                        </li>
+                        <li>
+                            Oracle PL/SQL
+                        </li>
+                    </ul>
+                </div>
+                <div id="code-example" class="flex-item">
+                    <h2>code example</h2>
+                    <p><i>
+                        var countBits = function(n) {<br>
+                            let num = n;<br>
+                            let binary = num.toString(2);<br>
+                            let bits = binary.replace(/0/g,"");<br>
+                            return bits.length;<br>
+                          };<br>
+                        </i></p>
+                </div>
+                <div id="education" class="flex-item">
+                    <h2>education</h2>
+                    <ul>
+                        <li>
+                            Tyumen State Oil And Gas University (Automated information processing systems and control)
+                        </li>
+                        <li>
+                            Tyumen State Oil And Gas University (english in the field of professional communications)
+                        </li>
+                    </ul>
+                </div>
+                <div id="english" class="flex-item">
+                    <h2>english</h2>
+                    <p>B1-Pre-Intermediate</p>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p class="year">
+                © 2022
+            </p>
+            <p class="link">
+                Github Link:
+                <a href="https://github.com/shvechkovAS">shvechkovAS</a>
+            </p>
+            <p class="logo-footer">
+                <a href="https://rs.school/js/">
+                    <img class="logo" src="https://rs.school/images/rs_school_js.svg" alt="rsschool logo">
+                </a>
+            </p>
+        </footer>
     </body>
 </html>

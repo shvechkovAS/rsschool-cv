@@ -1,3 +1,116 @@
-.example{
-color: red;
+body {
+    background: #e9fbf1;
+}
+
+header {
+    background: #3c624e;
+    padding: 10px;
+}
+
+.navigate {
+    margin: auto;
+    width: 800px;
+}
+
+.navigate>ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigate>ul>li {
+    list-style: none;
+}
+
+.navigate>ul>li>a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: wheat;
+}
+
+footer{
+    display: flex;
+    justify-content: flex-end;
+    background: #3c624e;
+}
+
+.logo{
+    height: 30px;
+}
+
+.year{
+    padding: 10px;
+    color: wheat;
+}
+
+.link {
+    padding: 10px;
+    color: wheat;
+}
+
+.link>a {
+    color: wheat;
+    text-decoration: none;
+}
+
+.logo-footer {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.CV {
+    height: 100%;
+    margin: auto;
+    width: 800px;
+}
+
+.about {
+    margin-top: 10px;
+    display: flex;
+    justify-content:space-around;
+    border-bottom: 4px solid #3c624e;
+}
+
+.name {
+    align-self: center;
+}
+
+h1{
+    text-transform: uppercase;
+    color: #3c624e;
+}
+
+.pic {
+    height: 200px;
+    border-radius: 100%;
+}
+
+ul{
+    padding-inline-start: 20px;
+}
+
+.common {
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    overflow: auto;
+}
+
+#contacts{
+    width: 50%;
+    border-bottom: 4px solid #3c624e;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: #3c624e;
+}
+
+.flex-item{
+    width: 50%;
+    border-bottom: 4px solid #3c624e;
+    margin-bottom: 5px;
+}
+
+#english{
+    flex: content;
 }

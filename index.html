@@ -5,8 +5,8 @@
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-        <header >
-            <nav>
+        <header>
+            <nav class="navigate">
                 <ul>
                     <li>
                         <a href="#contacts">contacts</a>
@@ -30,16 +30,17 @@
             </nav>
         </header>
         <main class="CV">
-            <div class = "name">
-                <h3>name</h3>
-                <p>Shvechkov Anton</p>
-            </div>
-            <div class="left-block">
-                <div class="photo">
-                    <img src="photo.jpg">
+            <div class="about">
+                <figure class="photo">
+                    <img src="photo.jpg" class="pic">
+                </figure>
+                <div class="name">
+                    <h1>Shvechkov Anton</h1>
                 </div>
-                <div class="contacts">
-                    <h3>contacts</h3>
+            </div>
+            <div class="common">
+                <div id="contacts" class="flex-item">
+                    <h2>contacts</h2>
                     <ul>
                         <li>
                             phone: +7(950)***-**-57
@@ -52,8 +53,30 @@
                         </li>
                     </ul>
                 </div>
-                <div class="skills">
-                    <h3>skills</h3>
+                <div id="info" class="flex-item">
+                    <h2>info</h2>
+                    <p>
+                       I am 30 y.o. On this course I want to learn basics of JavaScript and apply it on my current workplace. 
+                       When I was hired, they told me it would require only a backend skills, but they lied!
+                       They use Angular and Angular JS, and I want more common knowledge.
+                    </p>
+                </div>
+                <div id="experience" class="flex-item">
+                    <h2>work experience</h2>
+                    <ul>
+                        <li>
+                            Technical supporting, public joint stock company "Sberbank", 2 years
+                        </li>
+                        <li>
+                            Engineer-programmer (backend), ltd "Technocom", 5 years
+                        </li>
+                        <li>
+                            Engineer-programmer (fullstack), ltd "suenco", 1 year
+                        </li>
+                    </ul>
+                </div>
+                <div id="skills" class="flex-item">
+                    <h2>skills</h2>
                     <ul>
                         <li>
                             Java 8
@@ -84,47 +107,19 @@
                         </li>
                     </ul>
                 </div>
-                <div class="experience">
-                    <h3>work experience</h3>
-                    <ul>
-                        <li>
-                            Technical supporting, public joint stock company "Sberbank", 2 years
-                        </li>
-                        <li>
-                            Engineer-programmer (backend), ltd "Technocom", 5 years
-                        </li>
-                        <li>
-                            Engineer-programmer (fullstack), ltd "suenco", 1 year
-                        </li>
-                    </ul>
+                <div id="code-example" class="flex-item">
+                    <h2>code example</h2>
+                    <p><i>
+                        var countBits = function(n) {<br>
+                            let num = n;<br>
+                            let binary = num.toString(2);<br>
+                            let bits = binary.replace(/0/g,"");<br>
+                            return bits.length;<br>
+                          };<br>
+                        </i></p>
                 </div>
-                <div class="english">
-                    <h3>english</h3>
-                    <p>B1-Pre-Intermediate</p>
-                </div>
-            </div>
-            <div class="right-block">
-                <div class="info">
-                    <h3>info</h3>
-                    <p>
-                       I am 30 y.o. On this course I want to learn basics of JavaScript and apply it on my current workplace. 
-                       When I was hired, they told me it would require only a backend skills, but they lied!
-                       We use Angular and Angular JS, but I want more common knowledge.
-                    </p>
-                </div>
-                <div class="code-example">
-                    <h3>code example</h3>
-                    <p>
-                        var countBits = function(n) {
-                            let num = n;
-                            let binary = num.toString(2);
-                            let bits = binary.replace(/0/g,"");
-                            return bits.length;
-                          };
-                    </p>
-                </div>
-                <div class="education">
-                    <h3>education</h3>
+                <div id="education" class="flex-item">
+                    <h2>education</h2>
                     <ul>
                         <li>
                             Tyumen State Oil And Gas University (Automated information processing systems and control)
@@ -134,19 +129,23 @@
                         </li>
                     </ul>
                 </div>
+                <div id="english" class="flex-item">
+                    <h2>english</h2>
+                    <p>B1-Pre-Intermediate</p>
+                </div>
             </div>
         </main>
         <footer>
-            <p>
-                2022
+            <p class="year">
+                © 2022
             </p>
-            <p>
+            <p class="link">
                 Github Link:
                 <a href="https://github.com/shvechkovAS">shvechkovAS</a>
             </p>
-            <p>
+            <p class="logo-footer">
                 <a href="https://rs.school/js/">
-                    <img src="https://rs.school/images/rs_school_js.svg" alt="rsschool logo">
+                    <img class="logo" src="https://rs.school/images/rs_school_js.svg" alt="rsschool logo">
                 </a>
             </p>
         </footer>
